@@ -1,0 +1,158 @@
+body{background-color: #F8F9FD;
+}
+.login-container{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    box-shadow: 0 10px 34px -15px rgb(0 0 0 / 24%);
+    height: 450px;
+    line-height: 2rem;
+    
+}
+
+.login-container .sign-in{
+background-color: #FFFFFF;
+width: 50%;
+padding: 3rem;
+}
+
+
+.login-container .sign-in .header p{
+margin: 0   ;
+}
+.login-container .sign-in .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.login-container .sign-in .header p{
+    font-size: 25px;
+}
+.login-container .sign-in .header .icons{
+    display: flex;
+    justify-content: space-between;
+    width: 55px;
+}
+
+.login-container .sign-in .header .icons img{
+    border-radius: 50%;
+    font-size: 16px;
+    border: 1px solid transparent;
+    fill: gray !important;
+    width: 18px;
+    height: 18px;    
+}
+
+.login-container .content{
+}
+
+.login-container .content .username{
+
+}
+.login-container .content .username label{
+font-weight: bold;
+font-size: 13px;
+
+}
+.login-container .content .username input{
+background: rgba(0,0,0,.05);
+height: 40px;
+width: 100%;
+border: 1px solid transparent;
+border-radius: 50px;
+margin: 0%;
+outline: none;
+border: none;
+
+}
+
+::placeholder{
+    opacity: 0.3;
+    padding: 20px;
+    font-size: 14px;
+    
+}
+
+.login-container .content .password{
+
+}
+
+.login-container .content .password label{
+font-weight: bold;
+font-size: 13px;
+
+}
+.login-container .content .password input{
+    display: flex;
+    justify-content: center;
+    background: rgba(0,0,0,.05);
+    height: 40px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    margin: 0%;
+    margin-bottom: 1rem;
+    
+}
+
+.login-container .content .button button{
+    display: flex;
+    justify-content: center;
+    background: #F35588;
+    height: 50px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    margin: 0%;
+    color: white;
+    padding: 10px;
+    align-items: center;
+}
+
+
+
+.login-container .sign-in .footer{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+.login-container .welcome{
+background-color: #f75959;
+text-align: center;
+width: 50%;
+padding: 3rem;
+color: #F8F9FD;
+}
+
+.login-container .welcome .content{
+    margin-top: 25%;
+}
+.login-container .welcome .content .title{
+    font-size: 27px;
+}
+.login-container .welcome .content .title h2{
+    font-weight: bold;
+}
+
+.login-container .welcome .content .title p{
+    font-size: 18px;
+}
+
+.login-container .welcome .content .sign-up{
+}
+
+.login-container .welcome .content .sign-up button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 15px 20px;
+}
